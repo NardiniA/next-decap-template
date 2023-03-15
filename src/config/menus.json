@@ -1,0 +1,20 @@
+{
+  "mainMenu": [
+    {
+      "text": "Home",
+      "href": "/"
+    },
+    {
+      "text": "About",
+      "href": "/about"
+    },
+    {
+      "text": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "cta": {
+    "text": "Form",
+    "href": "/form"
+  }
+}

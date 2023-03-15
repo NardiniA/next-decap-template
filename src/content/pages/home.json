@@ -1,0 +1,121 @@
+{
+  "title": "Home",
+  "description": "This is the description for the Home Page.",
+  "hero": [
+    {
+      "type": "intro",
+      "title": "An Amazing App The Does It All",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis lacus interdum dictum dolor sit amet lectus ornare nunc non.",
+      "bg": "https://res.cloudinary.com/antonio-nardini/image/upload/v1663859259/hero-bg-3000_qufppv.jpg",
+      "buttons": [
+        {
+          "type": "header-button",
+          "href": "/",
+          "text": "Get Started"
+        },
+        {
+          "type": "header-button-icon",
+          "href": "/",
+          "icon": "play"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "type": "testimonials",
+      "theme": "bg-white",
+      "sectionHeader": {
+        "title": "What Our Users Have To Say."
+      },
+      "reviews": [
+        {
+          "name": "Tim Cook",
+          "position": "CEO, Apple",
+          "review": "Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum. Laudantium quia consequatur molestias.",
+          "image": "https://res.cloudinary.com/antonio-nardini/image/upload/v1661365729/user-02_fhwdbk.jpg"
+        },
+        {
+          "name": "Sundar Pichai",
+          "position": "CEO, Google",
+          "image": "https://res.cloudinary.com/antonio-nardini/image/upload/v1661365799/user-03_tk9ihz.jpg",
+          "review": "Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci. Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis. Quasi voluptas eius distinctio. Atque eos maxime."
+        },
+        {
+          "review": "Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio. Voluptatem dignissimos ut.",
+          "name": "Satya Nadella",
+          "position": "CEO, Microsoft",
+          "image": "https://res.cloudinary.com/antonio-nardini/image/upload/v1661365816/user-01_xlevqy.jpg"
+        },
+        {
+          "review": "Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui. In ac felis quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.",
+          "name": "Jeff Bezos",
+          "position": "CEO, Amazon",
+          "image": "https://res.cloudinary.com/antonio-nardini/image/upload/v1661365857/user-06_a8dl6o.jpg"
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "theme": "bg-primary",
+      "statistics": [
+        {
+          "value": "554k",
+          "label": "Total Downloads"
+        },
+        {
+          "value": "22k",
+          "label": "Daily Visitors"
+        },
+        {
+          "value": "99%",
+          "label": "Positive Rating"
+        },
+        {
+          "value": "526k",
+          "label": "Happy Users"
+        }
+      ]
+    },
+    {
+      "type": "pricing",
+      "theme": "bg-white",
+      "title": "Our Easy Pricing Plans for Everyone.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, sit pretium, proin sed massa maecenas tempus, nibh. Ultrices pellentesque amet tristique feugiat condimentum integer fames.",
+      "cards": [
+        {
+          "active": true,
+          "price": {
+            "currency": "£",
+            "frequency": "Per Month",
+            "price": 15
+          },
+          "button": {
+            "href": "/",
+            "text": "Get Started"
+          },
+          "title": "Pro Plan",
+          "features": "* 5﻿000GB Storage\n* U﻿nlimited Bandwidth\n* B﻿ackup & Restore\n* 1﻿00 Email Accounts"
+        },
+        {
+          "active": false,
+          "price": {
+            "currency": "£",
+            "frequency": "Per Month",
+            "price": 0
+          },
+          "button": {
+            "href": "/",
+            "text": "Get Started"
+          },
+          "title": "Free",
+          "features": "* 5﻿0GB Storage\n* 5﻿0GB Bandwidth\n* 3﻿0 Email Accounts\n* B﻿ackup & Restore"
+        }
+      ]
+    }
+  ],
+  "metaData": {
+    "metaTitle": "Home",
+    "metaDescription": "This is a sample meta description for the home page of the Booth website."
+  }
+}

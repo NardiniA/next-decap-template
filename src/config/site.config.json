@@ -1,0 +1,40 @@
+{
+  "logo": "https://res.cloudinary.com/antonio-nardini/image/upload/v1663855106/logo_e2iunw.svg",
+  "logoText": "Booth",
+  "baseURL": "http://localhost:3000",
+  "postPerPage": 6,
+  "metaData": {
+    "title": "Booth Website Template",
+    "titleSuffix": " | Booth ",
+    "author": "Antonio Nardini",
+    "ogImage": "https://res.cloudinary.com/antonio-nardini/image/upload/v1663859259/hero-bg-3000_qufppv.jpg",
+    "theme": "#3f885c",
+    "keywords": [
+      "Booth",
+      "Antonio Nardini",
+      "Website Template",
+      "Nardini"
+    ],
+    "description": "This is the default description for the Booth website template. If no metaDescription is provided this will be used by default."
+  },
+  "developer": {
+    "baseImageURL": "https://res.cloudinary.com/antonio-nardini/image/upload"
+  },
+  "social": [
+    {
+      "name": "Instagram",
+      "url": "/",
+      "icon": "instragram-alt"
+    },
+    {
+      "name": "Twitter",
+      "url": "/",
+      "icon": "twitter"
+    },
+    {
+      "name": "Facebook",
+      "url": "/",
+      "icon": "facebook-square"
+    }
+  ]
+}

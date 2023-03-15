@@ -1,0 +1,27 @@
+{
+  "subscribe": {
+    "title": "Sign Up to Our Newsletter",
+    "subtitle": "Subscribe for updates, special offers and more",
+    "showSubscribe": true,
+    "display": true
+  },
+  "main": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+    "contact": "Do you have a question? Send us a word:\\\n[contact@antonionardini.com](mailto:contact@antonionardini.com)",
+    "copyright": "© Antonio Nardini 2023",
+    "links": [
+      {
+        "href": "/",
+        "text": "Home"
+      },
+      {
+        "href": "/about",
+        "text": "About"
+      },
+      {
+        "href": "/contact",
+        "text": "Contact"
+      }
+    ]
+  }
+}

@@ -1,38 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) template using the `app` directory with [Decap CMS](https://decapcms.org/). 
 
 ## Getting Started
 
-First, run the development server:
+First, set environment variables using `.env`, `.env.local` or any other way you wish. 
+Include your cloudinary cloud name and apikey as well as the site url which by default Next.js uses http://localhost:3000. Also add your github details. Use the `.env.example` file to guide you on what to add. 
+
+Then, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the results.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start adding content by navigating to [/admin](http://localhost:3000/admin). This will change the data in your github repo which would update content on your production website.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+#### NOTE
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+In the [Decap Docs](https://decapcms.org/docs/) you have other backend settings available. Please note that at this moment (March 2023) the `test-repo` backend option for testing your website is not compatible with the cloudinary media libary due to authentication errors. Please use a production backend (E.g: GitHub, GitLabel, Git Gateway, etc) to test and use cloudinary. 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Project Structure
 
-## Learn More
+This template uses the src directory and the app directory (beta). Please refer to the [Next.js `appDir`](https://beta.nextjs.org/docs) docs for more information on how to develop your project.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The CMS configuration is found at `src/app/cms`. This directory is modular to help better organise the project and so you do not repeat code (DRY). It provides a base for you to start including a Blog schema with a title, excerpt, date, author, image and markdown content. Note that you can add custom widgets and custom editor components to the markdown editor in decapcms. Please refer to the [docs](https://decapcms.org/docs/custom-widgets/) to create custom widgets. To register custom widgets, please use the cms object found in 
