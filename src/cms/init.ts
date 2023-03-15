@@ -7,9 +7,7 @@ export const init: Promise<CMS | any> = Promise.all([
     // @ts-ignore
     import("netlify-cms-media-library-cloudinary"),
 ]).then(([manage, cloudinary]) => {
-    console.log(manage);
-    // @ts-ignore
-    const cms: CMS = manage;
+    const cms: CMS = manage?.default;
     cms.registerMediaLibrary(cloudinary?.default);
     cms.init({ config });
     register(cms);
