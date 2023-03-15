@@ -2,8 +2,9 @@ This is a [Next.js](https://nextjs.org/) template using the `app` directory with
 
 ## Getting Started
 
-First, set environment variables using `.env`, `.env.local` or any other way you wish. 
-Include your cloudinary cloud name and apikey as well as the site url which by default Next.js uses http://localhost:3000. Also add your github details. Use the `.env.example` file to guide you on what to add. 
+First, set environment variables using `.env`, `.env.local` or any other way you wish. Include your cloudinary cloud name and apikey as well as the site url which by default Next.js uses http://localhost:3000. Use the `.env.example` file to guide you on what to add. 
+
+Also add your github details in `src/cms/config.ts`. 
 
 Then, run the development server:
 

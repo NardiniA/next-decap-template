@@ -10,8 +10,8 @@ const config: CmsConfig = {
   load_config_file: false,
   backend: {
     name: "github",
-    repo: "NardiniA/next-decap-template",
-    branch: "main",
+    repo: "<GITHUB_USER>/<GITHUB_REPO>",
+    branch: "<GITHUB_REPO_BRANCH_NAME>",
   },
   media_library: {
     name: "cloudinary",
